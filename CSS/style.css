@@ -1,6 +1,15 @@
 p {
    color: aquamarine;
+   background-color: rgb(116, 116, 131);
+   font-size: 30px;
 }
-div{
-   background-color: rebeccapurple;
+
+/*class*/
+.parrafo{
+   color: brown;
+}
+
+/*id*/
+#parrafo_id{
+   color: green;
 }
