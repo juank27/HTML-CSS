@@ -1,0 +1,8 @@
+html{
+    font-size: 75%; /*Tamaño de la letra*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*tipo de letra*/
+}
+/*Herencia*/
+h1 {
+    font-size: inherit;
+}
