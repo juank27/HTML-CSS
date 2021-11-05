@@ -13,3 +13,37 @@ p {
 #parrafo_id{
    color: green;
 }
+
+.main-nav{
+   margin-top: 10px; /*Margen superior*/
+   list-style: none; /*quitar estilos a las listas*/
+   padding-left: 0; /*Margen interna*/
+   background-color: greenyellow;
+}
+.main-nav__item {
+   display: inline;
+}
+.main-nav__item a{
+   color: white;
+   background-color: red;
+   padding: 2px;
+   border-radius: 2px;
+   text-decoration: none;
+}
+
+/*PSEUDO CLASES*/
+/*pseudo clases propiedad hover cuando pasa encima del link */
+.main-nav__item a:hover{
+   color: black;
+   background-color: blue;
+}
+/*sirve cuando se da click*/
+.main-nav__item a:active{
+   background-color: green ;
+}
+
+/*PSEUDO ELEMENTOS*/
+/*after , sirve para agregar algo despues del elemento*/
+.main-nav__item a::after{
+   content: " | ";
+}
