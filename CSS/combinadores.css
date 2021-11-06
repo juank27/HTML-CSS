@@ -1,0 +1,16 @@
+/* convinador hermano cercano*/
+h2 + p{ /*aplica estilos al parrafo, que este cerca de h2 en cascada*/
+    color: red;
+}
+/*Heremanos generales*/
+h2 ~ p {
+    color: green;
+}
+/*combinador hijo directo*/
+div > p{ /*La etiqueta p sea hija directa de div*/
+    color: green;
+}
+/*decendiente*/
+div p {
+    color: rgb(141, 1, 255);
+}
